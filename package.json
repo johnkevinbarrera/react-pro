@@ -16,7 +16,9 @@
     "start-production": "npm run build && NODE_ENV=production BABEL_ENV=production babel-node src/server",
     "test": "echo \"Error: no test specified\"",
     "watch-client": "webpack --watch --config webpack/webpack.config.client.js",
-    "watch-server": "webpack --watch --config webpack/webpack.config.server.js"
+    "watch-server": "webpack --watch --config webpack/webpack.config.server.js",
+    
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
